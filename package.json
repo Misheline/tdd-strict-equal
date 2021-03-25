@@ -1,0 +1,25 @@
+{
+  "name": "tdd-strict-equal",
+  "version": "1.0.0",
+  "description": "Homework",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "mocha ./tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Misheline/tdd-strict-equal.git"
+  },
+  "author": "Misheline Quinones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Misheline/tdd-strict-equal/issues"
+  },
+  "homepage": "https://github.com/Misheline/tdd-strict-equal#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.22.0",
+    "mocha": "^8.3.2"
+  }
+}
